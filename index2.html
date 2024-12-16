@@ -3,131 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Animal Rescue Group</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background-color: navy;
-            color: white;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 1rem;
-            margin: 0 0.5rem;
-        }
-        nav a:hover {
-            background-color: navy;
-        }
-        .hero {
-            text-align: center;
-            padding: 2rem;
-            background: url(images/picanimal.jpg) no-repeat center center;
-            background-size: cover;
-            color: white;
-        }
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        .content {
-            padding: 2rem;
-        }
-        .content section {
-            margin-bottom: 2rem;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        .grid {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 20px;
-        }
-        .frame {
-        position: relative;
-        max-width: 450px;
-        margin: 2% auto;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Animal Rescue Group</h1>
-        <p>Rescuing Animals, One Paw at a Time</p>
-    </header>
-    
-    <nav>
-        <a href="about.html">About Us</a>
-        <a href="#animals.html">Adopt</a>
-        <a href="#donate.html">Donate</a>
-        <a href="#contact.html">Contact</a>
-    </nav>
+    <title>Paws of Hope - Animal Rescue</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" type="image" href="pngegg.png">
     
     <div class="hero">
-        <h1>Welcome to Animal Rescue Group</h1>
+        <a href="index2.html"><img src="pngegg.png" alt="Animal Rescue logo" width="230" height="auto"></a>
+        <h1>Welcome to Paws of Hope</h1>
         <p>Your support helps us save lives and create loving families.</p>
-    </div>
+     </div>
 
-    <div class="content">
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Animal Rescue Group is a non-profit organization dedicated to rescuing, rehabilitating, and rehoming animals in need. Our mission is to provide a safe haven for animals while advocating for animal welfare in our community.</p>
-            <a href="about.html" style="color: navy;">About Us</a>
-        </section>
-        
-        <section id="adopt">
-            <h2>Adopt a Friend</h2>
-            <p>Looking to add a furry friend to your family? Check out our adoption page to meet the animals waiting for their forever homes.</p>
-            <a href="animals.html" style="color:navy;">View Adoptable Animals</a>
-        </section>
-
-        <section id="donate">
+     <nav>
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="animals.html">Animals</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+        <main>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Paws of Hope is a non-profit organization dedicated to rescuing, rehabilitating, and rehoming animals in need.</p>
+         </section>
+         <section id="adopt">
+                <h2>Adopt a Friend</h2>
+                <p>Looking to add a furry friend to your family? Check out our adoption page.</p>
+         </section>
+         <section id="donate">
             <h2>Make a Difference</h2>
-            <p>Your donations help us provide food, shelter, and medical care to rescued animals. Every little bit helps!</p>
-            <a href="about.html" style="color: navy;">Donate Now</a>
-        </section>
-    </div>
-
-
-    <div class="grid">
-    <figure class="frame">
-        <a href="about.html"><img src="images/aboutuspic.jpg" alt="about us page"></a>
-        <figcaption class="pic-text">About Us</figcaption>
-    </figure>
-
-    <figure class="frame">
-        <a href="animals.html"><img src="images/animal pic.jpg" alt="animal picture"></a>
-        <figcaption class="pic-text">Our Animals</figcaption>
-    </figure>
-
-    <figure class="frame">
-        <a href="contact.html"><img src="images/contactus.jpg" alt="contact us page"></a>
-        <figcaption class="pic-text">Contact Us!</figcaption>
-    </figure>
-    </div>
-
-    <footer class="footer">
-        <p>&copy; 2024 Paws of Hope. All Rights Reserved.</p>
-        <p>Follow us on <a href="#" style="color: rgb(77, 77, 216)">Facebook</a> | <a href="#" style="color:rgb(77, 77, 216)">Instagram</a> | <a href="#" style="color: rgb(77, 77, 216);">Twitter</a> | <a href="#" style="color: rgb(77, 77, 216);">LinkedIn</a></p>
-    </footer>
-
-    
+            <p>Your donations help us provide food, shelter, and medical care to rescued animals.</p>
+         </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Paws of Hope. All Rights Reserved.</p>
+            <p><a href="mailto:animalrescue@hub.net">animalrescue@hub.net</a></p> 
+        </footer>
 </body>
 </html>
